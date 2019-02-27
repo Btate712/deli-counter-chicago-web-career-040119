@@ -14,3 +14,12 @@ def take_a_number(line, name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
 end
+
+def now_serving(line)
+  if line.empty?
+    puts "The line is empty"
+  else
+    puts "Currently serving #{line.first}."
+  end
+end
+
