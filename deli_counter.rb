@@ -22,4 +22,3 @@ def now_serving(line)
     puts "Currently serving #{line.first}."
   end
 end
-
