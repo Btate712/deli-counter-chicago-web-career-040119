@@ -9,3 +9,9 @@ def line(katz_deli)
     puts output_string
   end
 end
+
+def take_a_number(line, name)
+  line.push(name)
+end
+
+  
