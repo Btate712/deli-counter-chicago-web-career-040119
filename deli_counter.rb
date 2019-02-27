@@ -4,7 +4,7 @@ def line(katz_deli)
   else
     output_string = "The line is currently: "
     for person = 0..katz_deli.length
-      output_string += "#{person}. #{katz_deli[person]}
+      output_string += "#{person}. #{katz_deli[person]}"
     end
     puts output_string
   end
